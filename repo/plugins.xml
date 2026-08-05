@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-  <pyqgis_plugin name="OldMaps for QGIS" version="0.1.0.112">
+  <pyqgis_plugin name="OldMaps for QGIS" version="0.1.0.113">
     <description><![CDATA[Каталог історичних карт OldMaps.com.ua з додаванням вибраних XYZ-шарів у QGIS.]]></description>
     <about><![CDATA[OldMaps додає в QGIS док-панель для перегляду локацій і шарів з OldMaps.com.ua - колекції історичних карт, аерознімків та супутникових знімків України. Завдяки синхронізації з іншими картами користувачі можуть порівнювати місцевість у різні періоди часу та відстежувати динаміку змін ландшафту. Наявні карти доступні в окремих Локаціях на території України, кожна Локація має власний набір історичних шарів. Плагін завантажує актуальний каталог локацій і шарів, дозволяє шукати шари, та додавати їх як XYZ-растри на карту.]]></about>
 
-    <version>0.1.0.112</version>
+    <version>0.1.0.113</version>
     <qgis_minimum_version>3.16</qgis_minimum_version>
     <qgis_maximum_version>4.99</qgis_maximum_version>
 

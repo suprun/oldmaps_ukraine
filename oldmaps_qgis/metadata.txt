@@ -1,7 +1,7 @@
 [general]
 name=OldMaps for QGIS
 description=Каталог історичних карт OldMaps.com.ua з додаванням вибраних XYZ-шарів у QGIS.
-version=0.1.0.112
+version=0.1.0.113
 qgisMinimumVersion=3.16
 qgisMaximumVersion=4.99
 author=suprun

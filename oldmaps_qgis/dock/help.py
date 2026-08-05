@@ -116,6 +116,11 @@ class HelpMixin:
 
         browser = QTextBrowser(dialog)
         icon_add = self._help_action_icon(browser, "add", self.add_action)
+        icon_lock_view = self._help_action_icon(
+            browser,
+            "lock_view",
+            self.lock_view_action,
+        )
         icon_info = self._help_action_icon(browser, "info", self.info_action)
         icon_zoom = self._help_action_icon(browser, "zoom", self.zoom_to_selection_action)
         icon_no_duplicates = self._help_action_icon(browser, "no_duplicates", self.no_duplicates_action)
@@ -148,6 +153,7 @@ class HelpMixin:
               <h3>Кнопки панелі</h3>
               <ul>
                 <li>{icon_add} <b>Додати шар</b> додає вибраний шар у проєкт.</li>
+                <li>{icon_lock_view} <b>Заблокувати вид при додаванні шару</b> у ввімкненому стані зберігає поточний центр і масштаб полотна. Якщо блокування вимкнене, після додавання плагін переходить до меж шару.</li>
                 <li>{icon_info} <b>Атрибуція</b> показує атрибуцію та посилання на джерело шару.</li>
                 <li>{icon_zoom} <b>Збільшити до вибраного</b> переносить карту до вибраного міста або шару.</li>
                 <li>{icon_link} <b>Переглянути на сайті</b> відкриває сторінку вибраного елемента на oldmaps.com.ua.</li>
@@ -176,11 +182,6 @@ class HelpMixin:
                 <tr><td><b>Контакти автора плагіна:</b></td><td>{plugin_contact}</td></tr>
                 <tr><td><b>Сторінка плагіна:</b></td><td>{plugin_page_link}</td></tr>
               </table>
-
-              <h3>Сайт проєкту</h3>
-              <p>
-                <a href="https://oldmaps.com.ua/">https://oldmaps.com.ua/</a>
-              </p>
             </body>
             </html>
             """

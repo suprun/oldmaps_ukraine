@@ -58,7 +58,6 @@ desktop.ini
 .env.*
 *.ENV
 .ENV.*
-*.zip
 
 # Project-specific generated/local files
 flags_and_coats/

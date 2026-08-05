@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "file_version": "202608030",
+  "version_date": "2026-08-03",
+  "version_sequence": "0",
+  "updated_at": "2026-08-03T19:45:55.413970Z",
+  "published_at": "2026-08-03T20:09:50.946047Z",
+  "metadata": {
+    "total_pages": "44",
+    "total_layers": "505"
+  },
+  "gpkg": {
+    "key": "versions/oldmaps_202608030.gpkg",
+    "url": "https://aksdhgaczyemtajagiwb.supabase.co/storage/v1/object/public/oldmaps/versions/oldmaps_202608030.gpkg",
+    "filename": "oldmaps_202608030.gpkg",
+    "size": 937984,
+    "sha256": "6fa47eb0092792c459f1ea93c399e8f6ca30633674686afe06882ee982da28a2"
+  }
+}
